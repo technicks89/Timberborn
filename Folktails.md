@@ -27,15 +27,15 @@
 
 ### Manufacturing Chains
 
-| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Empty 3 | Power Meter | Relay (AND) | Extra |
-|----------|----------|-----|-----|---------------------|----------|----------|----------|--------------|-------------|-------|
-| Scavenger Flag/Mine | Scrap Metal | Scrap Metal < 70% | Scrap Metal = 100% | A: Scrap Metal Min / RST: Scrap Metal Max | Treated Plank > 10% |  |  | Power Supply > 0 | Scrap Metal Reset | Treated Plank Empty / Power |
-| Lumber Mill | Plank | Plank < 70% | Plank = 100% | A: Plank Min / RST: Plank Max | Log > 10% |  |  | Power Supply > 0 | Plank Reset | Log Empty / Power |
-| Gear Workshop | Gear | Gear < 70% | Gear = 100% | A: Gear Min / RST: Gear Max | Plank > 10% |  |  | Power Supply > 0 | Gear Reset | Plank Empty / Power |
-| Paper Mill | Paper | Paper < 70% | Paper = 100% | A: Paper Min / RST: Paper Max | Log > 10% |  |  | Power Supply > 0 | Paper Reset | Log Empty / Power |
-| Printing Press | Book | Book < 70% | Book = 100% | A: Book Min / RST: Book Max | Paper > 10% |  |  | Power Supply > 0 | Book Reset | Paper Empty / Power |
-| Explosives Factory | Explosive | Explosive < 70% | Explosive = 100% | A: Explosive Min / RST: Explosive Max | Badwater > 10% |  |  | Power Supply > 0 | Explosive Reset | Badwater Empty / Power |
-| Explosives Factory | Firework | Firework < 70% | Firework = 100% | A: Firework Min / RST: Firework Max | Badwater > 10% |  |  | Power Supply > 0 | Firework Reset | Badwater Empty / Power |
+| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Power Meter | Relay (AND) | Extra |
+|----------|----------|-----|-----|---------------------|----------|--------------|-------------|-------|
+| Scavenger Flag/Mine | Scrap Metal | Scrap Metal < 70% | Scrap Metal = 100% | A: Scrap Metal Min / RST: Scrap Metal Max | Treated Plank > 10% | Power Supply > 0 | Scrap Metal Reset | Treated Plank Empty / Power |
+| Lumber Mill | Plank | Plank < 70% | Plank = 100% | A: Plank Min / RST: Plank Max | Log > 10% | Power Supply > 0 | Plank Reset | Log Empty / Power |
+| Gear Workshop | Gear | Gear < 70% | Gear = 100% | A: Gear Min / RST: Gear Max | Plank > 10% | Power Supply > 0 | Gear Reset | Plank Empty / Power |
+| Paper Mill | Paper | Paper < 70% | Paper = 100% | A: Paper Min / RST: Paper Max | Log > 10% | Power Supply > 0 | Paper Reset | Log Empty / Power |
+| Printing Press | Book | Book < 70% | Book = 100% | A: Book Min / RST: Book Max | Paper > 10% | Power Supply > 0 | Book Reset | Paper Empty / Power |
+| Explosives Factory | Explosive | Explosive < 70% | Explosive = 100% | A: Explosive Min / RST: Explosive Max | Badwater > 10% | Power Supply > 0 | Explosive Reset | Badwater Empty / Power |
+| Explosives Factory | Firework | Firework < 70% | Firework = 100% | A: Firework Min / RST: Firework Max | Badwater > 10% | Power Supply > 0 | Firework Reset | Badwater Empty / Power |
 
 ### Food Processing
 
