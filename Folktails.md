@@ -2,20 +2,20 @@
 
 ## Resource Buildings
 
-| Building | Resource | Resource Counter Min | Resource Counter Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Empty 3 | Power Meter | Relay (AND) | Extra |
-|----------|----------|----------------------|----------------------|---------------------|----------|----------|----------|--------------|-------------|-------|
-| Lumberjack Flag | Log | Log < 70% | Log = 100% | A: Log Min / RST: Log Max |  |  |  |  |  |  |
-| Tapper Shack | Pine Resin | Pine Resin < 70% | Pine Resin = 100% | A: Pine Resin Min / RST: Pine Resin Max |  |  |  |  |  |  |
-| Tapper Shack | Maple Syrup | Maple Syrup < 70% | Maple Syrup = 100% | A: Maple Syrup Min / RST: Maple Syrup Max |  |  |  |  |  |  |
-| Gather Flag | Chestnut | Chestnut < 70% | Chestnut = 100% | A: Chestnut Min / RST: Chestnut Max |  |  |  |  |  |  |
-| Gather Flag | Dandelion | Dandelion < 70% | Dandelion = 100% | A: Dandelion Min / RST: Dandelion Max |  |  |  |  |  |  |
-| Gather Flag | Berries | Berries < 70% | Berries = 100% | A: Berries Min / RST: Berries Max |  |  |  |  |  |  |
-| Farm House | Sunflower | Sunflower < 70% | Sunflower = 100% | A: Sunflower Min / RST: Sunflower Max |  |  |  |  |  |  |
-| Farm House | Carrot | Carrot < 70% | Carrot = 100% | A: Carrot Min / RST: Carrot Max |  |  |  |  |  |  |
-| Farm House | Potato | Potato < 70% | Potato = 100% | A: Potato Min / RST: Potato Max |  |  |  |  |  |  |
-| Farm House | Wheat | Wheat < 70% | Wheat = 100% | A: Wheat Min / RST: Wheat Max |  |  |  |  |  |  |
-| Aquatic Farm House | Cattail Root | Cattail Root < 70% | Cattail Root = 100% | A: Cattail Root Min / RST: Cattail Root Max |  |  |  |  |  |  |
-| Aquatic Farm House | Spadderdock | Spadderdock < 70% | Spadderdock = 100% | A: Spadderdock Min / RST: Spadderdock Max |  |  |  |  |  |  |
+| Building | Resource | Resource Counter Min | Resource Counter Max | Memory (Set-Reset) | 
+|----------|----------|----------------------|----------------------|---------------------|
+| Lumberjack Flag | Log | Log < 70% | Log = 100% | A: Log Min / RST: Log Max |
+| Tapper Shack | Pine Resin | Pine Resin < 70% | Pine Resin = 100% | A: Pine Resin Min / RST: Pine Resin Max |
+| Tapper Shack | Maple Syrup | Maple Syrup < 70% | Maple Syrup = 100% | A: Maple Syrup Min / RST: Maple Syrup Max |
+| Gather Flag | Chestnut | Chestnut < 70% | Chestnut = 100% | A: Chestnut Min / RST: Chestnut Max |
+| Gather Flag | Dandelion | Dandelion < 70% | Dandelion = 100% | A: Dandelion Min / RST: Dandelion Max |
+| Gather Flag | Berries | Berries < 70% | Berries = 100% | A: Berries Min / RST: Berries Max |
+| Farm House | Sunflower | Sunflower < 70% | Sunflower = 100% | A: Sunflower Min / RST: Sunflower Max |
+| Farm House | Carrot | Carrot < 70% | Carrot = 100% | A: Carrot Min / RST: Carrot Max |
+| Farm House | Potato | Potato < 70% | Potato = 100% | A: Potato Min / RST: Potato Max |
+| Farm House | Wheat | Wheat < 70% | Wheat = 100% | A: Wheat Min / RST: Wheat Max |
+| Aquatic Farm House | Cattail Root | Cattail Root < 70% | Cattail Root = 100% | A: Cattail Root Min / RST: Cattail Root Max |
+| Aquatic Farm House | Spadderdock | Spadderdock < 70% | Spadderdock = 100% | A: Spadderdock Min / RST: Spadderdock Max |
 
 ### Water & Pumping
 
