@@ -19,11 +19,11 @@
 
 ### Water & Pumping
 
-| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Empty 3 | Power Meter | Relay (AND) | Extra |
-|----------|----------|-----|-----|---------------------|----------|----------|----------|--------------|-------------|-------|
-| (Large) Water Pump | Water | Water < 70% | Water = 100% | A: Water Min / RST: Water Max |  |  |  |  | Water Reset | Temperate |
-| Badwater Pump | Badwater | Badwater < 70% | Badwater = 100% | A: Badwater Min / RST: Badwater Max |  |  |  |  | Badwater Reset | Not Drought |
-| Dirt Excavator | Dirt | Dirt < 70% | Dirt = 100% | A: Dirt Min / RST: Dirt Max |  |  |  | Power Supply > 0 | Dirt Reset | Power |
+| Building | Resource | Min | Max | Memory (Set-Reset) | Power Meter | Relay (AND) | Extra |
+|----------|----------|-----|-----|--------------------|--------------|-------------|-------|
+| (Large) Water Pump | Water | Water < 70% | Water = 100% | A: Water Min / RST: Water Max | Water Reset | Temperate |
+| Badwater Pump | Badwater | Badwater < 70% | Badwater = 100% | A: Badwater Min / RST: Badwater Max | Badwater Reset | Not Drought |
+| Dirt Excavator | Dirt | Dirt < 70% | Dirt = 100% | A: Dirt Min / RST: Dirt Max | Power Supply > 0 | Dirt Reset | Power |
 
 ### Manufacturing Chains
 
