@@ -39,25 +39,25 @@
 
 ### Food Processing
 
-| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Empty 3 | Power Meter | Relay (AND) | Extra |
-|----------|----------|-----|-----|---------------------|----------|----------|----------|--------------|-------------|-------|
-| Gristmill | Wheat Flour | Wheat Flour < 70% | Wheat Flour = 100% | A: Wheat Flour Min / RST: Wheat Flour Max | Wheat > 10% |  |  | Power Supply > 0 | Wheat Flour Reset | Wheat Empty / Power |
-| Gristmill | Cattail Flour | Cattail Flour < 70% | Cattail Flour = 100% | A: Cattail Flour Min / RST: Cattail Flour Max | Cattail Root > 10% |  |  | Power Supply > 0 | Cattail Flour Reset | Cattail Empty / Power |
-| Grill | Grilled Potato | Grilled Potato < 70% | Grilled Potato = 100% | A: Grilled Potato Min / RST: Grilled Potato Max | Potato > 10% | Log > 10% |  |  | Grilled Potato Reset | Potato Empty / Log Empty |
-| Grill | Grilled Chestnut | Grilled Chestnut < 70% | Grilled Chestnut = 100% | A: Grilled Chestnut Min / RST: Grilled Chestnut Max | Chestnut > 10% | Log > 10% |  |  | Grilled Chestnut Reset | Chestnut Empty / Log Empty |
-| Grill | Grilled Spadderdock | Grilled Spadderdock < 70% | Grilled Spadderdock = 100% | A: Grilled Spadderdock Min / RST: Grilled Spadderdock Max | Spadderdock > 10% | Log > 10% |  |  | Grilled Spadderdock Reset | Spadderdock Empty / Log Empty |
-| Bakery | Bread | Bread < 70% | Bread = 100% | A: Bread Min / RST: Bread Max | Wheat Flour > 10% | Log > 10% |  |  | Bread Reset | Wheat Flour Empty / Log Empty |
-| Bakery | Cattail Cracker | Cattail Cracker < 70% | Cattail Cracker = 100% | A: Cattail Cracker Min / RST: Cattail Cracker Max | Cattail Flour > 10% | Log > 10% |  |  | Cattail Cracker Reset | Cattail Flour Empty / Log Empty |
+| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Power Meter | Relay (AND) | Extra |
+|----------|----------|-----|-----|---------------------|----------|----------|--------------|-------------|-------|
+| Gristmill | Wheat Flour | Wheat Flour < 70% | Wheat Flour = 100% | A: Wheat Flour Min / RST: Wheat Flour Max | Wheat > 10% | Power Supply > 0 | Wheat Flour Reset | Wheat Empty / Power |
+| Gristmill | Cattail Flour | Cattail Flour < 70% | Cattail Flour = 100% | A: Cattail Flour Min / RST: Cattail Flour Max | Cattail Root > 10% | Power Supply > 0 | Cattail Flour Reset | Cattail Empty / Power |
+| Grill | Grilled Potato | Grilled Potato < 70% | Grilled Potato = 100% | A: Grilled Potato Min / RST: Grilled Potato Max | Potato > 10% | Log > 10% | Grilled Potato Reset | Potato Empty / Log Empty |
+| Grill | Grilled Chestnut | Grilled Chestnut < 70% | Grilled Chestnut = 100% | A: Grilled Chestnut Min / RST: Grilled Chestnut Max | Chestnut > 10% | Log > 10% | Grilled Chestnut Reset | Chestnut Empty / Log Empty |
+| Grill | Grilled Spadderdock | Grilled Spadderdock < 70% | Grilled Spadderdock = 100% | A: Grilled Spadderdock Min / RST: Grilled Spadderdock Max | Spadderdock > 10% | Log > 10% | Grilled Spadderdock Reset | Spadderdock Empty / Log Empty |
+| Bakery | Bread | Bread < 70% | Bread = 100% | A: Bread Min / RST: Bread Max | Wheat Flour > 10% | Log > 10% | Bread Reset | Wheat Flour Empty / Log Empty |
+| Bakery | Cattail Cracker | Cattail Cracker < 70% | Cattail Cracker = 100% | A: Cattail Cracker Min / RST: Cattail Cracker Max | Cattail Flour > 10% | Log > 10% | Cattail Cracker Reset | Cattail Flour Empty / Log Empty |
 
 ### Refinery & Advanced Processing
 
-| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Empty 3 | Power Meter | Relay (AND) | Extra |
-|----------|----------|-----|-----|---------------------|----------|----------|----------|--------------|-------------|-------|
-| Refinery | Biofuel | Biofuel < 70% | Biofuel = 100% | A: Biofuel Min / RST: Biofuel Max | Potato/Carrot/Spadderdock > 10% | Water > 10% |  |  | Biofuel Reset | Empty inputs |
-| Refinery | Catalyst | Catalyst < 70% | Catalyst = 100% | A: Catalyst Min / RST: Catalyst Max | Maple Syrup > 10% | Extract > 10% |  |  | Catalyst Reset | Empty inputs |
-| Wood Workshop | Treated Plank | Treated Plank < 70% | Treated Plank = 100% | A: Treated Plank Min / RST: Treated Plank Max | Plank > 10% | Pine Resin > 10% |  | Power Supply > 0 | Treated Plank Reset | Power |
-| Smelter | Metal | Metal < 70% | Metal = 100% | A: Metal Min / RST: Metal Max | Scrap Metal > 10% | Log > 10% |  | Power Supply > 0 | Metal Reset | Power |
-| Centrifuge | Extract | Extract < 70% | Extract = 100% | A: Extract Min / RST: Extract Max | Badwater > 10% | Log > 10% |  | Power Supply > 0 | Extract Reset | Power |
+| Building | Resource | Min | Max | Memory (Set-Reset) | Empty 1 | Empty 2 | Power Meter | Relay (AND) | Extra |
+|----------|----------|-----|-----|---------------------|----------|----------|--------------|-------------|-------|
+| Refinery | Biofuel | Biofuel < 70% | Biofuel = 100% | A: Biofuel Min / RST: Biofuel Max | Potato/Carrot/Spadderdock > 10% | Water > 10% | Biofuel Reset | Empty inputs |
+| Refinery | Catalyst | Catalyst < 70% | Catalyst = 100% | A: Catalyst Min / RST: Catalyst Max | Maple Syrup > 10% | Extract > 10% | Catalyst Reset | Empty inputs |
+| Wood Workshop | Treated Plank | Treated Plank < 70% | Treated Plank = 100% | A: Treated Plank Min / RST: Treated Plank Max | Plank > 10% | Pine Resin > 10% | Power Supply > 0 | Treated Plank Reset | Power |
+| Smelter | Metal | Metal < 70% | Metal = 100% | A: Metal Min / RST: Metal Max | Scrap Metal > 10% | Log > 10% | Power Supply > 0 | Metal Reset | Power |
+| Centrifuge | Extract | Extract < 70% | Extract = 100% | A: Extract Min / RST: Extract Max | Badwater > 10% | Log > 10% | Power Supply > 0 | Extract Reset | Power |
 
 ### Special Production
 
