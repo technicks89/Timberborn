@@ -1,6 +1,3 @@
-Here’s your content converted into a clean Markdown file format:
-
-```markdown
 # Production & Resource Control Table
 
 ## Resource Buildings
@@ -90,10 +87,3 @@ Here’s your content converted into a clean Markdown file format:
 | Resource | Population Counter Min | Population Counter Max | Memory (Set-Reset) | Inputs | Power Meter | Relay (AND) | Extra |
 |----------|------------------------|------------------------|---------------------|--------|--------------|-------------|-------|
 | Bot | Unemployed Bot < 10 | Unemployed Bot = 20 | A: Unemployed Bot Min / RST: Unemployed Bot Max | Bot Limbs > 20%, Bot Heads > 10%, Bot Chassis > 10% | Power Supply > 0 | Unemployed Bot Reset | Power |
-```
-
-If you want, I can also:
-
-* split this into multiple `.md` files (by category),
-* convert it into a spreadsheet (CSV/Excel),
-* or normalize it into a database schema.
